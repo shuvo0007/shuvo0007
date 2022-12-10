@@ -10,7 +10,7 @@ const Projects = () => {
       Projects
       <div className="flex flex-wrap my-10 ">
         <div className="max-w-sm rounded-xl text-left mx-5 ">
-          <Card className="bg-transparent">
+          <Card className="bg-from-ph">
             <img className="rounded-xl w-96 h-64" src={laptop} alt="" />
             <h5 className="font-bold tracking-tight text-white dark:text-white mt-5">
               Apnader laptop
@@ -43,11 +43,11 @@ const Projects = () => {
             </div>
             <div className="flex justify-center">
               <a
-                href="https://e-commerce-site-43e68.web.app/"
+                href="https://digital-educations.web.app/"
                 target="blank"
-                class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden  font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+                class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden  font-medium text-white rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
               >
-                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-violet-900 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   View Project
                 </span>
               </a>
@@ -55,7 +55,7 @@ const Projects = () => {
           </Card>
         </div>
         <div className="max-w-sm rounded-xl text-left mx-5 ">
-          <Card className="bg-transparent">
+          <Card className="bg-from-ph">
             <img className="rounded-xl w-96 h-64" src={review} alt="" />
             <h5 className="font-bold tracking-tight text-white dark:text-white mt-5">
               TutionBD
@@ -80,11 +80,11 @@ const Projects = () => {
             </div>
             <div className="flex justify-center">
               <a
-                href="https://tution-bd.web.app/"
+                href="https://digital-educations.web.app/"
                 target="blank"
-                class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden  font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+                class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden  font-medium text-white rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
               >
-                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-violet-900 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   View Project
                 </span>
               </a>
@@ -92,7 +92,7 @@ const Projects = () => {
           </Card>
         </div>
         <div className="max-w-sm rounded-xl text-left mx-5 ">
-          <Card className="bg-transparent">
+          <Card className="bg-from-ph">
             <img className="rounded-xl w-96 h-64" src={education} alt="" />
             <h5 className="font-bold tracking-tight text-white dark:text-white mt-5">
               Digital Education
@@ -119,9 +119,9 @@ const Projects = () => {
               <a
                 href="https://digital-educations.web.app/"
                 target="blank"
-                class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden  font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+                class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden  font-medium text-white rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
               >
-                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-violet-900 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   View Project
                 </span>
               </a>
