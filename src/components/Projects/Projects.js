@@ -41,7 +41,7 @@ const Projects = () => {
                 </ul>
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <a
                 href="https://e-commerce-site-43e68.web.app/"
                 target="blank"
@@ -78,7 +78,7 @@ const Projects = () => {
                 </ul>
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <a
                 href="https://tution-bd.web.app/"
                 target="blank"
@@ -115,7 +115,7 @@ const Projects = () => {
                 </ul>
               </p>
             </div>
-            <div>
+            <div className="flex justify-center">
               <a
                 href="https://digital-educations.web.app/"
                 target="blank"
