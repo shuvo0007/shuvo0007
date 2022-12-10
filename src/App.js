@@ -1,16 +1,11 @@
+import { RouterProvider } from "react-router";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
+import { routes } from "./components/Routes/Routes";
 
 function App() {
   return (
     <div className="App">
-      <div className="md:px-10">
-        <Header></Header>
-        <Main></Main>
-        <Footer></Footer>
-      </div>
+      <RouterProvider router={routes}></RouterProvider>
     </div>
   );
 }
