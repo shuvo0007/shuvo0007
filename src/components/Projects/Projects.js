@@ -2,7 +2,7 @@ import { Card } from "flowbite-react";
 import React from "react";
 import laptop from "../img/laptop.png";
 import review from "../img/review.png";
-import education from "../img/education.webp";
+import education from "../img/education.png";
 
 const Projects = () => {
   return (
