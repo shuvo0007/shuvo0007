@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { HiCheck, HiX } from "react-icons/hi";
 import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactMe = () => {
   const form = useRef();
@@ -18,7 +18,7 @@ const ContactMe = () => {
       )
       .then(
         (result) => {
-          toast.success("🦄 Wow so easy!", {
+          toast.success("Email Send", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -28,9 +28,19 @@ const ContactMe = () => {
             progress: undefined,
             theme: "colored",
           });
+          form.current.reset();
         },
         (error) => {
-          console.log("email not send");
+          toast.error("Something Went Wrong", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
         }
       );
   };
@@ -48,6 +58,7 @@ const ContactMe = () => {
               <div className="flex items-center">
                 <label className="mx-5">Name:</label>
                 <input
+                  required
                   className="rounded-xl w-96 bg-transparent text-2xl"
                   type="text"
                   name="user_name"
@@ -57,6 +68,7 @@ const ContactMe = () => {
               <div className="flex items-center">
                 <label className="mx-5">Email:</label>
                 <input
+                  required
                   className="rounded-xl w-96 bg-transparent text-2xl"
                   type="email"
                   name="user_email"
@@ -68,7 +80,8 @@ const ContactMe = () => {
             <div className="my-5 flex items-center">
               <label className="mx-5">Message:</label>
               <textarea
-                className="rounded-xl bg-transparent text-2xl min-w-full min-h-full overflow-y-scroll"
+                required
+                className="rounded-xl bg-transparent text-2xl min-w-full min-h-full "
                 name="message"
               />
             </div>
