@@ -1,4 +1,3 @@
-import { Card } from "flowbite-react";
 import React from "react";
 import laptop from "../img/laptop.png";
 import review from "../img/review.png";
@@ -6,13 +5,16 @@ import education from "../img/education.png";
 
 const Projects = () => {
   return (
-    <div className="text-left">
+    <div className="text-left h-screen ">
+      <p className="text-6xl text-purple-500">
+
       Projects
+      </p>
       <div className="flex flex-wrap my-10 ">
         <div className="max-w-sm rounded-xl text-left mx-5 ">
-          <Card className="bg-from-ph">
+          <div className="bg-from-ph ">
             <img className="rounded-xl w-96 h-64" src={laptop} alt="" />
-            <h5 className="font-bold tracking-tight text-white dark:text-white mt-5">
+            <h5 className="font-bold tracking-tight text-purple-500 dark:text-white mt-5">
               Apnader laptop
             </h5>
             <div className="h-96 mb-5 ">
@@ -52,12 +54,12 @@ const Projects = () => {
                 </span>
               </a>
             </div>
-          </Card>
+          </div>
         </div>
         <div className="max-w-sm rounded-xl text-left mx-5 ">
-          <Card className="bg-from-ph">
+          <div className="bg-from-ph">
             <img className="rounded-xl w-96 h-64" src={review} alt="" />
-            <h5 className="font-bold tracking-tight text-white dark:text-white mt-5">
+            <h5 className="font-bold tracking-tight text-purple-500 dark:text-white mt-5">
               TutionBD
             </h5>
             <div className="h-96 mb-5">
@@ -89,12 +91,12 @@ const Projects = () => {
                 </span>
               </a>
             </div>
-          </Card>
+          </div>
         </div>
         <div className="max-w-sm rounded-xl text-left mx-5 ">
-          <Card className="bg-from-ph">
+          <div className="bg-from-ph">
             <img className="rounded-xl w-96 h-64" src={education} alt="" />
-            <h5 className="font-bold tracking-tight text-white dark:text-white mt-5">
+            <h5 className="font-bold tracking-tight text-purple-500 dark:text-white mt-5">
               Digital Education
             </h5>
             <div className="h-96 mb-5">
@@ -126,7 +128,7 @@ const Projects = () => {
                 </span>
               </a>
             </div>
-          </Card>
+          </div>
         </div>
       </div>
     </div>

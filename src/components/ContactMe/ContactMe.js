@@ -46,30 +46,30 @@ const ContactMe = () => {
   };
 
   return (
-    <div>
-      <h2 className="flex">Contact me</h2>
+    <div className="h-screen w-full mt-24 mr-36">
+      <h2 className="flex  text-6xl text-purple-500">Contact me</h2>
 
-      <div className=" px-20 py-10">
+      <div className="mt-5 p-16 shadow-xl  shadow-indigo-500/50">
         <form ref={form} onSubmit={sendEmail}>
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col">
             {/* name and email */}
             <div className="flex my-5">
               {/* name  */}
-              <div className="flex items-center">
+              <div className="flex items-center w-1/2">
                 <label className="mx-5">Name:</label>
                 <input
                   required
-                  className="rounded-xl w-96 bg-transparent text-2xl"
+                  className="rounded-xl  bg-transparent text-2xl w-full"
                   type="text"
                   name="user_name"
                 />
               </div>
               {/* email */}
-              <div className="flex items-center">
+              <div className="flex items-center w-1/2">
                 <label className="mx-5">Email:</label>
                 <input
                   required
-                  className="rounded-xl w-96 bg-transparent text-2xl"
+                  className="rounded-xl bg-transparent text-2xl w-full"
                   type="email"
                   name="user_email"
                 />
@@ -81,14 +81,14 @@ const ContactMe = () => {
               <label className="mx-5">Message:</label>
               <textarea
                 required
-                className="rounded-xl bg-transparent text-2xl min-w-full min-h-full "
+                className="rounded-xl bg-transparent text-2xl w-full h-48 "
                 name="message"
               />
             </div>
 
             {/* submit button  */}
-            <div>
-              <button>
+            <div className="pt-5">
+              <button className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-3xl px-10 py-5 text-center mr-2 mb-2">
                 <input type="submit" value="" />
                 Send
               </button>
